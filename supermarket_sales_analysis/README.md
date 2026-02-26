@@ -38,6 +38,20 @@ Identified which product lines contributed most to revenue during peak traffic p
 - Revenue peaks are primarily driven by higher customer volume rather than significantly higher spending per customer.
 - Certain product categories contribute disproportionately to peak-hour revenue.
 
+## Example Outputs
+
+### Weekday vs Weekend Traffic
+
+![Weekday vs Weekend](images/traffic_weekday_vs_weekend.png)
+
+### Traffic Heatmap
+
+![Traffic Heatmap](images/traffic_heatmap.png)
+
+### Top Products at Peak Hour
+
+![Top Products](images/top_products_peak_hour.png)
+
 ## Business Implications
 - Increase staffing during peak traffic periods.
 - Optimize product placement for high-performing categories during peak hours.
@@ -45,12 +59,17 @@ Identified which product lines contributed most to revenue during peak traffic p
 
 ## Project Structure
 supermarket_sales_analysis/
-│
-├── data/
-│ └── supermarket_sales.csv
-│
-├── supermarket_sales_analysis.ipynb
-│
+
+├── data/  
+│    supermarket_sales.csv  
+
+├── images/  
+│    traffic_weekday_vs_weekend.png  
+│    traffic_heatmap.png  
+│    top_products_peak_hour.png  
+
+├── supermarket_sales_analysis.ipynb  
+
 └── README.md
 
 ## Author

@@ -61,6 +61,12 @@ to identify top traffic and top ATV periods.
 - Traffic increases more significantly than ATV during peak periods.
 - Revenue peaks are mainly driven by customer volume.
 
+## Example Output
+
+Peak traffic and revenue analysis using SQL aggregation:
+
+![SQL Peak Analysis](images/sql_peak_analysis.png)
+
 ## SQL Concepts Demonstrated
 - CTE (WITH clause)
 - Aggregation (COUNT, AVG, SUM)
@@ -71,12 +77,15 @@ to identify top traffic and top ATV periods.
 
 ## Project Structure
 supermarket_sales_sql_analysis/
-│
-├── data/
-│ └── supermarket_sales.csv
-│
-├── supermarket_sales_sql_analysis.ipynb
-│
+
+├── data/  
+│    supermarket_sales.csv  
+
+├── images/  
+│    sql_peak_analysis.png  
+
+├── supermarket_sales_sql_analysis.ipynb  
+
 └── README.md
 
 ## Author

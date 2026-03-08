@@ -1,12 +1,13 @@
 # Supermarket Sales Analysis
 
 ## Project Overview
-This project analyzes supermarket transaction data using Python to identify peak traffic periods, revenue drivers, and product performance.  
-The analysis focuses on understanding when stores are busiest and whether revenue peaks are driven by customer volume (traffic) or spending per transaction (ATV).
+This project analyzes supermarket transaction data using Python to identify peak recorded transaction periods, revenue drivers, and product performance.  
+The analysis focuses on understanding when recorded transaction activity is relatively higher in the dataset and whether revenue peaks are driven by customer volume (transaction count) or spending per transaction (ATV).
 
 ## Dataset
 Public supermarket sales dataset (CSV format, ~1000 transactions).  
-The dataset was obtained from publicly available sources and used for educational and portfolio purposes.
+The dataset was obtained from publicly available sources and used for educational and portfolio purposes.  
+This is a sample transaction dataset for analytical practice, not a full production POS dataset.
 
 ## Tools and Libraries
 - Python
@@ -17,8 +18,8 @@ The dataset was obtained from publicly available sources and used for educationa
 
 ## Analysis Steps
 
-### 1. Weekday vs Weekend Traffic
-Calculated average daily transaction counts per branch to avoid bias from unequal numbers of weekdays and weekends.
+### 1. Weekday vs Weekend Recorded Transactions
+Calculated average recorded transaction counts per day by branch to avoid bias from unequal numbers of weekdays and weekends.
 
 ### 2. Peak Time Identification
 Created a heatmap of transaction counts by day and hour to identify the busiest time slots.
@@ -40,17 +41,17 @@ Identified which product lines contributed most to revenue during peak traffic p
 
 ## Example Outputs
 
-### Weekday vs Weekend Traffic
+### Weekday vs Weekend Recorded Transactions
 
-![Weekday vs Weekend](images/traffic_weekday_vs_weekend.png)
+![Weekday vs Weekend Recorded Transactions](images/weekday_weekend_recorded_transactions.png)
 
-### Traffic Heatmap
+### Recorded Transactions Heatmap
 
-![Traffic Heatmap](images/traffic_heatmap.png)
+![Recorded Transactions Heatmap](images/recorded_transactions_heatmap.png)
 
-### Top Products at Peak Hour
+### Top Product Lines at Peak Hour
 
-![Top Products](images/top_products_peak_hour.png)
+![Top Product Lines at Peak Hour](images/top_product_lines_peak_hour.png)
 
 ## Business Implications
 - Increase staffing during peak traffic periods.
@@ -64,9 +65,9 @@ supermarket_sales_analysis/
 │    supermarket_sales.csv  
 
 ├── images/  
-│    traffic_weekday_vs_weekend.png  
-│    traffic_heatmap.png  
-│    top_products_peak_hour.png  
+│    weekday_weekend_recorded_transactions.png  
+│    recorded_transactions_heatmap.png  
+│    top_product_lines_peak_hour.png  
 
 ├── supermarket_sales_analysis.ipynb  
 

@@ -87,9 +87,11 @@ This project demonstrates a structured, business-aware data cleaning approach ra
 
 ## Example Output
 
-Summary of missing value handling and dataset validation:
+### Cleaning Summary
 
-![Data Cleaning Summary](images/data_cleaning_summary.png)
+This output summarizes missing value handling and dataset validation results.
+
+![Cleaning Summary](images/data_cleaning_summary.png)
 
 ## Project Structure
 supermarket_sales_data_cleaning/

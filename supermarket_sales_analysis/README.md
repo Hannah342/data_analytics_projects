@@ -49,6 +49,10 @@ Identified which product lines contributed most to revenue during peak traffic p
 
 ![Recorded Transactions Heatmap](images/recorded_transactions_heatmap.png)
 
+### Transaction Count and Average Transaction Value by Day and Hour
+
+![Transaction Count and Average Transaction Value by Day and Hour](images/transaction_count_and_avg_value_by_day_hour.png)
+
 ### Top Product Lines at Peak Hour
 
 ![Top Product Lines at Peak Hour](images/top_product_lines_peak_hour.png)
@@ -66,7 +70,8 @@ supermarket_sales_analysis/
 
 ├── images/  
 │    weekday_weekend_recorded_transactions.png  
-│    recorded_transactions_heatmap.png  
+│    recorded_transactions_heatmap.png 
+     transaction_count_and_avg_value_by_day_hour.png
 │    top_product_lines_peak_hour.png  
 
 ├── supermarket_sales_analysis.ipynb  
